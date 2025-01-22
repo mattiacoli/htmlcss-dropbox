@@ -1,61 +1,62 @@
 /* #region Commons */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family:Roboto, serif
+body {
+  font-family: Roboto, serif
 }
 
-.d-flex{
+.d-flex {
   display: flex;
 }
 
-.container-w{
+.container-w {
   width: 80%;
   margin: auto;
 }
 
-.container-s{
+.container-s {
   width: 70%;
   margin: auto;
 }
 
-:root{
-  --drop-primary:#0061fe;
-  --drop-primary-soft:#b4d0e6;
-  --drop-lighter:#ffff;
-  --drop-dark:black;
+:root {
+  --drop-primary: #0061fe;
+  --drop-primary-soft: #b4d0e6;
+  --drop-lighter: #ffff;
+  --drop-dark: black;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: var(--drop-primary);
   padding: 0.5rem 0.75rem;
   color: var(--drop-lighter);
+  text-decoration: none;
 }
 
 /* #endregion Commons */
 
 /* Debug */
-.debug{
-  *{
+.debug {
+  * {
     border: 1px dashed;
   }
 
-  .row{
+  .row {
     background: rgba(157, 99, 214, 0.712);
   }
 
-  [class^="col"]{
+  [class^="col"] {
     background-color: rgba(255, 166, 0, 0.616);
   }
 
-  .site-header{
+  .site-header {
     background-color: red;
 
-    nav{
+    nav {
       background-color: rgba(108, 139, 21, 0.979);
       color: white;
     }
@@ -67,7 +68,7 @@ body{
 
 /* #region Header */
 
-.site-header{
+.site-header {
   background-color: var(--drop-lighter);
   min-height: 70px;
   display: flex;
@@ -76,48 +77,71 @@ body{
   width: 100%;
   z-index: 4;
 
-  nav{
+  nav {
     padding: 0 1rem;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 
-    ul{
+    ul {
       display: flex;
       list-style: none;
       gap: 1.5rem;
       align-items: center;
     }
 
-   a{
-    font-size: 0.75;
-    text-decoration:none;
-    color: var(--drop-dark);
-   }
+    a {
+      font-size: 0.75;
+      text-decoration: none;
+      color: var(--drop-dark);
+    }
 
-   .right .btn-primary{
-    color: var(--drop-lighter);
-   }
+    .right .btn-primary {
+      color: var(--drop-lighter);
+    }
 
   }
 }
+
 /* #endregion Header */
 
 /* #region main */
 
-#jumbotron
-{
-  padding-top:5rem ;
-  background-color:var(--drop-primary-soft) ;
+#jumbotron {
+  padding-top: 8rem;
+  background-color: var(--drop-primary-soft);
+  
+  h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+
+  .col-4 {
+
+    
+    p{
+      padding: 0.5rem 0;
+      line-height: 1.25rem;
+    }
+
+    .disclaimer{
+      margin-top: 2rem;
+    }
+
+    .go-to{
+      background-color: red;
+      width: 200px;
+    }
+
+  }
 }
 
 
-footer{
- .d-flex{
-  justify-content: space-between;
- }
+footer {
+  .d-flex {
+    justify-content: space-between;
+  }
 
 
 }
-
-
