@@ -31,12 +31,6 @@ body {
   --drop-dark: black;
 }
 
-.btn-primary {
-  background-color: var(--drop-primary);
-  padding: 0.5rem 0.75rem;
-  color: var(--drop-lighter);
-  text-decoration: none;
-}
 
 ul{
   list-style: none;
@@ -46,17 +40,36 @@ h2{
   font-size: 2rem;
 }
 
-h4{
+h3{
   font-size: 1.5rem;
   padding: 1rem 0;
+}
+
+
+a{
+  text-decoration: none;
 }
 
 .bordered{
   border: 0.5px solid rgb(206, 202, 202);
 }
 
-a{
-  text-decoration: none;
+.bordered-bottom{
+  border-bottom: 0.5px solid var(--drop-light);
+}
+
+
+.btn-primary {
+  padding: 0.5rem 0.75rem;
+  background-color: var(--drop-primary);
+  color: var(--drop-lighter);
+}
+
+.btn-secondary{
+  padding: 0.5rem 0.75rem;
+  background-color: transparent;
+  color:rgb(71, 71, 71);
+  border:1px solid rgb(71, 71, 71);
 }
 
 
@@ -160,6 +173,8 @@ a{
 
 
 #plans {
+
+
   display: flex;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -168,6 +183,11 @@ a{
     display: flex;
     gap: 1rem;
     padding: 3rem 0;
+  }
+
+
+  .col-4{
+    display: flex;
   }
 
   .card-title{
@@ -215,6 +235,20 @@ a{
     
   }
 
+}
+
+#partner{
+  margin: 7rem 0;
+
+  .col-5{
+    padding: 2rem 3rem;
+
+    p{
+      margin-bottom: 2rem;
+    }
+
+   
+  }
 }
 
 footer {
