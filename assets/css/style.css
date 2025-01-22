@@ -46,6 +46,11 @@ h2{
   font-size: 2rem;
 }
 
+h4{
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
 .bordered{
   border: 0.5px solid rgb(206, 202, 202);
 }
@@ -151,7 +156,11 @@ a{
 }
 
 /* plans */
+
+
+
 #plans {
+  display: flex;
   margin-top: 2rem;
   margin-bottom: 1rem;
 
@@ -161,20 +170,20 @@ a{
     padding: 3rem 0;
   }
 
-  .card h5{
+  .card-title{
     text-align: center;
     padding: 0.5rem 1rem;
   }
 
-  .plans-detail{
+  .card-details{
     padding: 2rem 1rem;
     line-height: 1rem;
-  
   }
 
   ul{
     margin: 2rem 0;
     font-size: 14px;
+    line-height: 1.5rem;
   }
 
   .shop-now{
@@ -192,6 +201,19 @@ a{
   color:var(--drop-light) ;
  }
 
+}
+
+.col-12{
+
+  .card-details{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-text{
+    width: 70%;
+    
+  }
 
 }
 
