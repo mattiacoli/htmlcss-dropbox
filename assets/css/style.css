@@ -27,6 +27,7 @@ body {
   --drop-primary: #0061fe;
   --drop-primary-soft: #b4d0e6;
   --drop-lighter: #ffff;
+  --drop-light:rgb(206, 202, 202);
   --drop-dark: black;
 }
 
@@ -36,6 +37,23 @@ body {
   color: var(--drop-lighter);
   text-decoration: none;
 }
+
+ul{
+  list-style: none;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+.bordered{
+  border: 0.5px solid rgb(206, 202, 202);
+}
+
+a{
+  text-decoration: none;
+}
+
 
 /* #endregion Commons */
 
@@ -85,7 +103,6 @@ body {
 
     ul {
       display: flex;
-      list-style: none;
       gap: 1.5rem;
       align-items: center;
     }
@@ -107,11 +124,12 @@ body {
 
 /* #region main */
 
+/* jumbotron */
 #jumbotron {
   padding-top: 8rem;
   background-color: var(--drop-primary-soft);
-  
-  h1{
+
+  h1 {
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 1rem;
@@ -119,24 +137,63 @@ body {
 
   .col-4 {
 
-    
-    p{
+
+    p {
       padding: 0.5rem 0;
       line-height: 1.25rem;
     }
 
-    .disclaimer{
+    .disclaimer {
       margin-top: 2rem;
-    }
-
-    .go-to{
-      background-color: red;
-      width: 200px;
     }
 
   }
 }
 
+/* plans */
+#plans {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+  .billing-cycle {
+    display: flex;
+    gap: 1rem;
+    padding: 3rem 0;
+  }
+
+  .card h5{
+    text-align: center;
+    padding: 0.5rem 1rem;
+  }
+
+  .plans-detail{
+    padding: 2rem 1rem;
+    line-height: 1rem;
+  
+  }
+
+  ul{
+    margin: 2rem 0;
+    font-size: 14px;
+  }
+
+  .shop-now{
+    margin-top: 2rem;
+
+    a{
+      text-decoration: underline;
+      color: var(--drop-primary);
+    }  
+  }
+
+ hr{
+  margin: 2rem 0;
+  width: 3rem;
+  color:var(--drop-light) ;
+ }
+
+
+}
 
 footer {
   .d-flex {
