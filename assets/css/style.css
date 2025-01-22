@@ -185,7 +185,6 @@ a{
     padding: 3rem 0 2rem 0;
   }
 
-
   .col-4{
     display: flex;
   }
@@ -263,6 +262,20 @@ a{
       line-height: 1.25rem;
     }
   }
+}
+
+#client{
+  margin:4rem 0;
+
+.container-s{
+  a{
+    text-decoration: underline;
+    color:var(--drop-primary);
+    display: inline-block;
+    margin: 3rem 0;
+  }
+}
+
 }
 
 
