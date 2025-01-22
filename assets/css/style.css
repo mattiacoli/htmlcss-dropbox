@@ -182,7 +182,7 @@ a{
   .billing-cycle {
     display: flex;
     gap: 1rem;
-    padding: 3rem 0;
+    padding: 3rem 0 2rem 0;
   }
 
 
@@ -196,7 +196,7 @@ a{
   }
 
   .card-details{
-    padding: 2rem 1rem;
+    padding: 2rem 1.25rem;
     line-height: 1rem;
   }
 
@@ -217,7 +217,7 @@ a{
 
  hr{
   margin: 2rem 0;
-  width: 3rem;
+  width: 3.5rem;
   color:var(--drop-light) ;
  }
 
@@ -246,10 +246,26 @@ a{
     p{
       margin-bottom: 2rem;
     }
-
    
   }
 }
+
+#tools{
+  .row{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .card-tool{
+    p{
+      padding: 0.75rem 0;
+      font-size: 14px;
+      line-height: 1.25rem;
+    }
+  }
+}
+
+
 
 footer {
   .d-flex {
