@@ -405,7 +405,25 @@ footer {
       color: var(--drop-lighter);
       font-size: 1rem;
       margin-bottom: 1rem;
+    }  
+
+  }
+
+  .foot-bar{
+    padding: 3rem 0;
+    font-size: 13px;
+
+    hr{
+      width: 10rem;
+      margin: 2rem 0;
     }
+
+    .lang{
+      display: flex;
+      align-items: baseline;
+      gap:0.5rem;
+    }
+
   }
 
 
