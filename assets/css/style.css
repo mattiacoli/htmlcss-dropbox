@@ -28,6 +28,7 @@ body {
 
 :root {
   --drop-primary: #0061fe;
+  --drop-primary-dark:#022fac;
   --drop-primary-soft: #b4d0e6;
   --drop-lighter: #ffff;
   --drop-light: rgb(141, 141, 141);
@@ -72,6 +73,11 @@ a {
   background-color: var(--drop-primary);
   color: var(--drop-lighter);
   font-weight: 200;
+
+  &:hover{
+    font-weight: 400;
+    background-color:var(--drop-primary-dark);
+  }
 }
 
 .btn-secondary {
