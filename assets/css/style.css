@@ -68,7 +68,7 @@ a {
 
 .btn-primary {
   display: inline-block;
-  padding: 0.5rem 0.75rem;
+  padding: 0.75rem 1rem;
   background-color: var(--drop-primary);
   color: var(--drop-lighter);
 }
@@ -162,6 +162,7 @@ a {
 /* jumbotron */
 
 #jumbotron {
+  position: relative;
   padding-top: 8rem;
   background-color: var(--drop-primary-soft);
   height: 700px;
@@ -187,6 +188,17 @@ a {
   img{
     width: 120%;
   }
+
+  .scroll-down{
+    position: absolute;
+    bottom:10px;
+    
+    a{
+     font-size: 3rem;
+     color: var(--drop-dark);
+    }
+    
+  }
 }
 
 /* plans */
@@ -196,7 +208,7 @@ a {
 #plans {
 
   display: flex;
-  margin-top: 7rem;
+  margin-top: 10rem;
   margin-bottom: 1rem;
 
   .billing {
