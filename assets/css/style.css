@@ -134,7 +134,7 @@ a {
 
     ul {
       display: flex;
-      gap: 1.5rem;
+      gap: 1rem;
       align-items: center;
 
       li{ 
@@ -149,7 +149,7 @@ a {
     }
 
     a {
-      font-size: 0.75;
+      font-size: 14px;
       color: var(--drop-dark);
     }
 
@@ -176,7 +176,7 @@ a {
   position: relative;
   padding-top: 8rem;
   background-color: var(--drop-primary-soft);
-  height: 700px;
+  height: 665px;
 
   h1 {
     font-size: 3.5rem;
@@ -197,7 +197,7 @@ a {
   }
 
   img{
-    width: 120%;
+    width: 100%;
   }
 
   .scroll-down{
@@ -213,8 +213,6 @@ a {
 }
 
 /* plans */
-
-
 
 #plans {
 
@@ -333,11 +331,14 @@ a {
 
 }
 
+
+/* partner */
+
 #partner {
   margin: 7rem 0;
 
   .col-5 {
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
 
     p {
       margin-bottom: 2rem;
@@ -345,6 +346,9 @@ a {
 
   }
 }
+
+
+/* tools */
 
 #tools {
   .row {
